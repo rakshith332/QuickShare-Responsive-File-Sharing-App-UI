@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang=”en”>
+<head>
+<meta charset=”UTF-8”>
+<meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
+<meta http-equiv=”X-UA-Compatible” content=”ie=edge”>
+<title>QuickShare – File Sharing App</title>
+<style>
+Body {
+Font-family: Arial, sans-serif;
+Margin: 0;
+Padding: 0;
+Display: flex;
+Flex-direction: column;
+Align-items: center;
+Justify-content: center;
+Height: 100vh;
+Background-color: #f7f9fc;
+}
+.container {
+Text-align: center;
+Max-width: 600px;
+Width: 100%;
+Padding: 20px;
+Background-color: white;
+Border-radius: 10px;
+Box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+H1 {
+Color: #333;
+Margin-bottom: 20px;
+}
+.file-upload {
+Padding: 40px;
+Border: 2px dashed #ccc;
+Border-radius: 10px;
+Cursor: pointer;
+Background-color: #f0f0f0;
+}
+.file-upload:hover {
+Background-color: #e0e0e0;
+}
+.file-upload input[type=”file”] {
+Display: none;
+}
+.btn-upload {
+Margin-top: 20px;
+Padding: 10px 20px;
+Background-color: #007bff;
+Color: white;
+Border: none;
+Border-radius: 5px;
+Cursor: pointer;
+}
+.btn-upload:hover {
+Background-color: #0056b3;
+}
+Footer {
+Margin-top: 20px;
+Font-size: 0.9em;
+Color: #888;
+}
+</style>
+</head>
+<body>
+<div class=”container”>
+<h1>QuickShare</h1>
+<p>Upload your files easily and securely.</p>
+<label class=”file-upload”>
+<input type=”file” multiple>
+Drag & drop your files here or click to upload
+</label>
+<button class=”btn-upload”>Upload Files</button>
+</div>
+<footer>
+© 2024 QuickShare. All Rights Reserved.
+</footer>
+</body>
+</html>
